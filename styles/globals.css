@@ -87,12 +87,9 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: #333;
+
+  font-size: 22px;
 }
 
 a {
@@ -104,4 +101,34 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+
+  background-color: purple;
+  padding: 0.5rem 1rem;
+  font-size: 18px;
+}
+
+input {
+  border: 1px solid purple;
+  background: none;
+  cursor: pointer;
+
+  background-color: white;
+  color: #333;
+  padding: 0.5rem 1rem;
+  font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol {
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+}
+
+ul, ol {
+  padding-left: 1.5em;
 }
